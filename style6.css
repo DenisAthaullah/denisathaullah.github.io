@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+.navbar .nav ul li a{
+    text-decoration: none;
+    /* padding: 25px; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar .nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.navbar ul{
+     /* float: right; */
+    margin-top: -50px;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20px;
+    height: 20px;
+}
+.logo{
+    padding-top: 20px;
+}
+.main .jumbotron .mainheader{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.main .jumbotron .mainheader img{
+    border-radius: 8px;
+    cursor: pointer;
+}
+.main .banner{
+    background-image: url('image/wallpaper.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main .banner .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link, h4{
+    margin-top: -20px;
+}
+.main .banner .container h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.main .banner .container h4{
+    font-size: 25px;
+    font-weight: 100;
+}
+.main .banner .container .link a{
+    color: rgb(0, 132, 255);
+    padding: 15px;
+    text-decoration: none;
+}
+.banner .container .link a:hover{
+    text-decoration: underline;
+}
+.link a{
+    color: inherit;
+}
+.footer{
+    background-color: black;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    bottom: 0;
+}
+.footer div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footer a{
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+.footer h3{
+    font-weight: 200;
+    margin-bottom: -5px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.main .ipad{
+    background-image: url(image/ipad.jpg);
+    height: 750px;
+    width: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -25px;
+}
+.main .ipad .container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .ipad .container2 h1{
+    color: black;
+    font-weight: 500;
+    font-size: 50px;
+}
+.main .ipad .container2 h4{
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+}
+.main .ipad .container2 .link2 a{
+    color: rgb(0, 132, 255);
+    padding: 15px;
+    text-decoration: none;
+}
+.link2, h4{
+    margin-top: -20px;
+}
+.ipad .container2 .link2 a:hover{
+    text-decoration: underline;
+}
+.parent{
+    display: flex;
+}
+.main .airpods{
+    background-image: url(image/airpods3.jpg);
+    height: 750px;
+    width: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0px;
+}
+.main .airpods .container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.main .airpods .container3 h1{
+    color: black;
+    font-weight: 500;
+    font-size: 50px;
+}
+.main .airpods .container3 h4{
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+}
+.main .airpods .container3 .link3 a{
+    color: rgb(0, 132, 255);
+    padding: 15px;
+    text-decoration: none;
+}
+.link3, h4{
+    margin-top: -20;
+}
+.airpods .container3 .link3 a:hover{
+    text-decoration: underline;
+}
